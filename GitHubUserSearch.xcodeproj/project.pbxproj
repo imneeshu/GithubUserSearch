@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B6FC71F52E1E37F2007B8FBD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B6FC71F42E1E37F2007B8FBD /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B6FC71982E1E2C89007B8FBD /* GitHubUserSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubUserSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FC71F52E1E37F2007B8FBD /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = GitHubUserSearch;
 			packageProductDependencies = (
+				B6FC71F42E1E37F2007B8FBD /* SDWebImageSwiftUI */,
 			);
 			productName = GitHubUserSearch;
 			productReference = B6FC71982E1E2C89007B8FBD /* GitHubUserSearch.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = B6FC718F2E1E2C89007B8FBD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6FC71F32E1E37F2007B8FBD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6FC71992E1E2C89007B8FBD /* Products */;
 			projectDirPath = "";
@@ -252,7 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GitHubUserSearch/Preview Content\"";
-				DEVELOPMENT_TEAM = 9N73QX8TLS;
+				DEVELOPMENT_TEAM = 2V8634ZXMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GitHubUserSearch/Preview Content\"";
-				DEVELOPMENT_TEAM = 9N73QX8TLS;
+				DEVELOPMENT_TEAM = 2V8634ZXMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6FC71F32E1E37F2007B8FBD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6FC71F42E1E37F2007B8FBD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6FC71F32E1E37F2007B8FBD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6FC71902E1E2C89007B8FBD /* Project object */;
 }
