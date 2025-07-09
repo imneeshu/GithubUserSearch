@@ -36,7 +36,7 @@ struct SearchView: View {
                     .foregroundColor(.primary)
                 
                 // Professional subtitle
-                Text("Search users by username")
+                Text("Search Github users by username")
                     .font(.system(size: 18, weight: .medium, design: .rounded))
                     .foregroundColor(.secondary)
             }
